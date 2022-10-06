@@ -18,17 +18,20 @@ int main()
 
         int n, test,type, right, left; cin >> n;
         ll arrA[n + 9], arrB[n + 9];
+        // base 1 NOT 0 
         arrA[0] = arrB[0] = 0;
         for(int i = 1; i <=n;i++)
         {
             cin >> arrA[i];
             arrB[i] = arrA[i];
+                // prefix sum the first array
             arrA[i] = arrA[i] + arrA[i-1];
         }
-        
+        // sort the second array before prefix sum it
         sort(arrB, arrB + n + 1);
         for(int i = 1;i<=n;i++)
         {
+                // prefix sum the second array
             arrB[i] = arrB[i] + arrB[i-1];
         }
 
@@ -38,6 +41,7 @@ int main()
             cin >> type >> left >> right;
             if(type==1)
             {
+                    // the value of right - (left - 1) - 
                 cout << arrA[right] - arrA[left-1] ;
             }
             else
