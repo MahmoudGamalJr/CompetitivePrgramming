@@ -1,3 +1,4 @@
+// Problem Name: B. Kuriyama Mirai's Stones
 // Problem Link: https://codeforces.com/contest/433/problem/B
 // Language: CPP
 // Submission Link: https://codeforces.com/contest/433/submission/174860962
