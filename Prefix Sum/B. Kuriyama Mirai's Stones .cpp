@@ -19,7 +19,7 @@ int main()
 
         int n, test,type, right, left; cin >> n;
         ll arrA[n + 9], arrB[n + 9];
-        arrA[0] = arrB[0] = 0; // dynamic programming step (base 1 NOT 0)
+        arrA[0] = arrB[0] = 0; // dynamic programming step (base 1 NOT 0).
         for(int i = 1; i <=n;i++)
         {
             cin >> arrA[i];
