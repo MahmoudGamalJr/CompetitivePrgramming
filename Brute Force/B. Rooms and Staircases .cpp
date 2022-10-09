@@ -14,7 +14,8 @@ using namespace std;
 int main()
 {
 
-        int Test ; cin >> Test; // test cases
+        int Test ; cin >> Test; 
+        // test cases
 
         while(Test--)
         {
