@@ -19,13 +19,13 @@ int main()
         
         for(int i = 0; i  < (int)str.size();i++)
         {
-            alph[str[i]-'a']++;
+            alph[str[i]-'a']++; // frequency technique
         }
         for(int i = 0; i < 26;i++)
         {
             if(alph[i]%2!=0)
             {
-                cout << "No";  // frequency technique
+                cout << "No";  
                 return 0;
             }
         }
