@@ -1,6 +1,6 @@
 
 // Problem Name: B. Rooms and Staircases
-// Problem Link: https://codeforces.com/contest/1244/problem/B
+ [Problem Link: ](https://codeforces.com/contest/1244/problem/B)
 // Language: CPP
 // Submission Link: https://codeforces.com/contest/1244/submission/175237371
 // User: Mahmoud_Gamal_
